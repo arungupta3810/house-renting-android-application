@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".renthouse">
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/bt1"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:background="@drawable/h1" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Rent 12,000Rs/month"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="B/12 Nalanda ,Anushaktinagar"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="2 BHK Flat"
+                                        android:textSize="16sp" />
+
+                                    <Button
+                                        android:id="@+id/gh1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:layout_marginTop="15dp"
+                                        android:background="@drawable/rouded"
+                                        android:text="Contact owner" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/bt2"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:background="@drawable/j1" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Rent 8,000Rs/month"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="vasant vihar 409, ghatkopar"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="1 BHK Flat"
+                                        android:textSize="16sp" />
+
+                                    <Button
+                                        android:id="@+id/gh2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:layout_marginTop="15dp"
+                                        android:background="@drawable/rouded"
+                                        android:text="Contact owner" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/bt3"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:background="@drawable/k1" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Rent 20,000Rs/month"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="jannat 501 , bandra"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="2 BHK Flat"
+                                        android:textSize="16sp" />
+
+                                    <Button
+                                        android:id="@+id/gh3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:layout_marginTop="15dp"
+                                        android:background="@drawable/rouded"
+                                        android:text="Contact owner" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/bt4"
+                                    android:layout_width="150dp"
+                                    android:layout_height="145dp"
+                                    android:background="@drawable/l1" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Rent 9,500Rs/month"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="sai view 1101 ,kanjur marg"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="1 BHK Flat"
+                                        android:textSize="16sp" />
+
+                                    <Button
+                                        android:id="@+id/gh4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:layout_marginTop="15dp"
+                                        android:background="@drawable/rouded"
+                                        android:text="Contact owner" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/bt5"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:background="@drawable/m1" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Rent 7,000Rs/month"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="b4/901 rosa gardenia , thane"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="2 BHK Flat"
+                                        android:textSize="16sp" />
+
+                                    <Button
+                                        android:id="@+id/gh5"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="15dp"
+                                        android:background="@drawable/rouded"
+                                        android:text="Contact owner" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/bt6"
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    android:background="@drawable/n1" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Rent 6,000Rs/month"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="c/15 parijat , chembur"
+                                        android:textSize="16sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="1 BHK Flat"
+                                        android:textSize="16sp" />
+
+                                    <Button
+                                        android:id="@+id/gh6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="40dp"
+                                        android:layout_marginTop="15dp"
+                                        android:background="@drawable/rouded"
+                                        android:text="Contact owner" />
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+</LinearLayout>

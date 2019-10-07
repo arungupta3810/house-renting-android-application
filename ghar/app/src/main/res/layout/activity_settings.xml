@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/pro"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+
+    <Button
+        android:id="@+id/b_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:background="#EEEEEE"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/b_chpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change password"
+        android:background="#EEEEEE"
+        android:textSize="25sp"/>
+
+
+
+    <Button
+        android:id="@+id/b_deact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="deactivate account"
+        android:background="#EEEEEE"
+        android:textSize="25sp"
+        />
+
+
+</LinearLayout>

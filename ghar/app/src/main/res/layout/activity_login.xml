@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="30dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/pro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:src="@drawable/ghr"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <EditText
+                    android:id="@+id/login_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="15"
+                    android:hint="email"
+                    android:layout_marginTop="5dp"
+                    android:inputType="text"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                app:passwordToggleEnabled="true"
+                android:focusableInTouchMode="true">
+
+                <EditText
+                    android:id="@+id/login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="15"
+                    android:hint="password"
+                    android:inputType="textPassword"
+                    android:layout_marginTop="5dp"
+                    android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/login_b1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rouded"
+                android:text="login"
+                android:textSize="25dp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/login_b2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rouded"
+                android:text="Register"
+                android:onClick="btn_signupform"
+                android:textSize="25dp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/tvf1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:textSize="18sp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"/>
+
+            <ProgressBar
+                android:id="@+id/p_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

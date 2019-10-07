@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/pro"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <EditText
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ghar"
+                android:textSize="40sp"
+                android:layout_marginLeft="50dp"
+                android:textStyle="bold"
+                android:textColor="#130B0B"
+                />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/t_fullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:inputType="text"
+                    android:hint="full name"
+                    android:layout_marginTop="5dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/t_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:inputType="text"
+                    android:hint="username"
+                    android:layout_marginTop="5dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/t_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:inputType="textEmailAddress"
+                    android:hint="email"
+                    android:layout_marginTop="5dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:focusable="true"
+                app:passwordToggleEnabled="true"
+                android:focusableInTouchMode="true"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/t_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:inputType="textPassword"
+                    android:hint="password"
+                    android:layout_marginTop="5dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:focusable="true"
+                app:passwordToggleEnabled="true"
+                android:focusableInTouchMode="true"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/t_cpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:inputType="textPassword"
+                    android:hint="confirm password"
+                    android:layout_marginTop="5dp"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/b_register"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:text="register"
+                android:textColor="@color/white"
+                android:layout_marginTop="50dp"
+                android:textSize="25sp"
+                android:background="@drawable/rouded"/>
+
+            <ProgressBar
+                android:id="@+id/p_load"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

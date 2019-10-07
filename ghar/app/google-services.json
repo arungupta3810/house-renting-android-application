@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "940687811093",
+    "firebase_url": "https://ghar-4c108.firebaseio.com",
+    "project_id": "ghar-4c108",
+    "storage_bucket": "ghar-4c108.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940687811093:android:95536a4b93d56a1176e41c",
+        "android_client_info": {
+          "package_name": "com.example.ghar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940687811093-vl0bkgj7fsk9lel1cp4ekmn552raj19e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ghar",
+            "certificate_hash": "19996ce77ea6fe9e4ac0abb4841bcd026ab3a590"
+          }
+        },
+        {
+          "client_id": "940687811093-ablnpep8hilmoq4tduj1t5ib96ajt43l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDEu0QxcnzqTtbTeCEWvlWMBdGtimQ7pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940687811093-ablnpep8hilmoq4tduj1t5ib96ajt43l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

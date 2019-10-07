@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".guidance">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Guide"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="45dp"
+                android:textStyle="bold" />
+
+            <VideoView
+                android:id="@+id/v1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What do i need to do to rent a house??"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/g1"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rouded"
+                android:text="play" />
+
+            <VideoView
+                android:id="@+id/v2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tips"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/g2"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rouded"
+                android:text="play" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOW TO RENT A HOUSE??"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1.Figure out how much it will cost you to keep your house safe and livable. You'll need to invest a decent sum of money to get the house in shape to rent, and over the years you'll be responsible for keeping it in good repair. Spend some time thinking through the various costs you'll incur and make sure you're able to handle them before you consider renting your home."
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2.Decide whether to hire a property manager. Being a landlord can be pretty time intensive. You'll need to screen tenants, negotiate a rent price, facilitate a lease signing, collect rent, do home repairs, and be the point person whenever problems arise. If you want to rent your house but don't want all the responsibilities, hire a property manager to take care of all the nitty gritty parts of the job for you. "
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3.Calculate the rent you want to charge. Factoring in the cost of your mortgage, the cost of keeping the house in shape and other foreseeable expenses, and the property manager's fee (if you're using one), figure out how much rent you'll need to charge to at least break even. Then conduct some market research to find out how much tenants will be willing to pay to rent your house. If you'll be able to make a decent profit, you're in good shape"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="4.Set up a system for managing your finances. Start thinking of your rental house as a small business. It's a good idea to keep rental-related finances separate from your personal finances. Use Quickbooks or another financial management system to record your expenses and keep track of payments.
+If you don't want to invest in financial management software, set up a spreadsheet to track your expenses and payments.
+Consider opening a bank account that you'll use for the sole purpose of managing rental finances."
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Hope it had helped you .."
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

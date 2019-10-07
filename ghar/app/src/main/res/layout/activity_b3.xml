@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".b3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photos-"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:textSize="30dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/z1"/>
+
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/z2"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="120dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/z3"/>
+
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/z4"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Specification-"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="20sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Type-"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2BHK"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20sp"/>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Contact-"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="20sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone no.-"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9082453873"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="20sp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email id.-"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ganeshrajmani@gmail.com"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address-"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dhannu 23, near thane station"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rent-"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 15,000/month"
+                    android:textStyle="normal"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="20sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/b35"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:background="@drawable/rouded"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:text="Book for a rent"/>
+            <Button
+                android:id="@+id/b36"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="@drawable/rouded"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"
+                android:text="call"/>
+        </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
